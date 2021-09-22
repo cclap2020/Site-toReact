@@ -6,7 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Nav from "./Component/Nav/Nav";
+import Contact from "./Component/Contact/Contact";
 
 function App() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <Router>
-      <Nav />
+      <Contact />
     </Router>
   );
 }
