@@ -1,0 +1,124 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  font-family: "Roboto", Helvetica, serif;
+  flex-wrap: wrap;
+}
+
+.media-links__ul {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+.media-links__li {
+  list-style: none;
+  max-width: 5%;
+  padding: 5% 0;
+}
+
+.footer img {
+  margin: auto;
+  background-color: #8a8a8a;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  height: auto;
+  max-width: 100%;
+}
+
+.footer img:hover {
+  background-color: white;
+}
+
+.footer__personal-contact {
+  width: 100%;
+}
+
+.personal-contact__ul {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  text-align: center;
+}
+
+.personal-contact__ul__li {
+  list-style: none;
+}
+
+.footer__company-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2%;
+  justify-content: center;
+}
+
+.company-info-container__info,
+.company-info-container__home,
+.company-info-container__portfolio,
+.company-info-container__resume,
+.company-info-container__contact {
+  padding: 2rem;
+  width: 20%;
+  text-align: center;
+}
+
+.company-info-container__info {
+}
+
+.home__link {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio__link {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio__ul__li {
+  list-style: none;
+}
+
+.portfolio__ul__li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio__ul__li a:link {
+  color: white;
+}
+
+.portfolio__ul__li a:active {
+  color: white;
+}
+
+.portfolio__ul__li a:visited {
+  color: white;
+}
+
+.company-info-container__resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume__link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__link {
+  color: white;
+  text-decoration: none;
+}
