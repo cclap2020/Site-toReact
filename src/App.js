@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -5,12 +6,16 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Footer from "./Component/Footer/Footer";
+import Nav from "./Component/Nav/Nav";
 
 function App() {
+  useEffect(() => {
+    document.title = "Developer";
+  }, []);
+
   return (
     <Router>
-      <Footer />
+      <Nav />
     </Router>
   );
 }
