@@ -8,6 +8,7 @@ import {
 
 import ContactPage from "./Component/ContactPage/ContactPage";
 import PortfolioPage from "./Component/PortfolioPage/PortfolioPage";
+import HomePage from "./Component/HomePage/HomePage";
 
 function App() {
   useEffect(() => {
@@ -16,7 +17,17 @@ function App() {
 
   return (
     <Router>
-      <PortfolioPage />
+      <Switch>
+        <Route path="/home">
+          <HomePage />
+        </Route>
+        <Route path="/portfolio">
+          <PortfolioPage />
+        </Route>
+        <Route path="/contact">
+          <ContactPage />
+        </Route>
+      </Switch>
     </Router>
   );
 }
