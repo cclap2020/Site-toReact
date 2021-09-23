@@ -6,7 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Contact from "./Component/Contact/Contact";
+import ContactPage from "./Component/ContactPage/ContactPage";
 
 function App() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <Router>
-      <Contact />
+      <ContactPage />
     </Router>
   );
 }
