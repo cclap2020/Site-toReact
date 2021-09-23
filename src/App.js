@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import ContactPage from "./Component/ContactPage/ContactPage";
+import PortfolioPage from "./Component/PortfolioPage/PortfolioPage";
 
 function App() {
   useEffect(() => {
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <Router>
-      <ContactPage />
+      <PortfolioPage />
     </Router>
   );
 }
