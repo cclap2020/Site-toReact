@@ -120,3 +120,37 @@
   color: white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .media-links__ul {
+    flex-direction: column;
+    width: 90vw;
+    align-items: center;
+  }
+
+  .media-links__li {
+    max-width: 15vw;
+  }
+
+  .personal-contact__ul {
+    flex-direction: column;
+  }
+
+  .personal-contact__ul__li > h4 {
+    font-size: 2rem;
+  }
+
+  .footer__company-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-info-container__info,
+  .company-info-container__home,
+  .company-info-container__portfolio,
+  .company-info-container__resume,
+  .company-info-container__contact {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
