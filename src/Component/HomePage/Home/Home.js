@@ -22,13 +22,19 @@ export default function Home() {
           <div className="row text-center">
             <div className="banner-buttons">
               <div className="col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5">
-                <a className="btn btn-default btn-border" href="#about">
+                <a
+                  className="btn btn-default btn-border btn-responsive"
+                  href="#about"
+                >
                   Info
                 </a>
               </div>
 
               <div className="col-sm-1 col-md-1">
-                <a className="btn btn-default btn-border" href="#projects">
+                <a
+                  className="btn btn-default btn-border btn-responsive"
+                  href="#projects"
+                >
                   Portfolio
                 </a>
               </div>

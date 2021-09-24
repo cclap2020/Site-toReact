@@ -105,3 +105,7 @@
 .summary p {
   font-family: "Roboto", Helvetica, serif;
 }
+
+.btn-responsive {
+  min-width: min-content;
+}
