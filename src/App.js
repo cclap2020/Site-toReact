@@ -15,8 +15,13 @@ function App() {
     document.title = "Developer";
   }, []);
 
+  const currentURL = window.location.href;
+  console.log(currentURL);
+
   return (
     <Router>
+      <Redirect to="/home" />
+
       <Switch>
         <Route path="/home">
           <HomePage />
